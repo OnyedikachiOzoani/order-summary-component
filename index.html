@@ -5,8 +5,6 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<!-- displays site properly based on user's device -->
-
 		<link
 			rel="icon"
 			type="image/png"
@@ -18,34 +16,44 @@
 
 	<body>
 		<main class="main-container">
-			<div role="presentation" class="success-image"></div>
-			<h1>Order Summary</h1>
-			<p
-				>You can now listen to millions of songs, audiobooks, and
-				podcasts on any device anywhere you like!</p
-			>
-			<div class="subscription-details">
-				<img
-					src="/images/icon-music.svg"
-					alt="music icon"
-					class="music-icon" />
-				<p class="subscription-duration">
-					<span>Annual Plan</span>
-					<span>$59.99/year</span>
-				</p>
-				<a href="#">Change</a>
+			<div class="main-content">
+				<h1>Order Summary</h1>
+				<p
+					>You can now listen to millions of songs, audiobooks, and
+					podcasts on any device anywhere you like!</p
+				>
+				<div class="subscription-details">
+					<p class="subscription-duration">
+						<strong>Annual Plan</strong>
+						<span>$59.99/year</span>
+					</p>
+					<a href="#">Change</a>
+					<img
+						src="/images/icon-music.svg"
+						alt="music icon"
+						class="music-icon" />
+				</div>
+				<a href="#" class="payment">Proceed to Payment</a>
+				<a href="#" class="terminate-order">Cancel Order</a>
 			</div>
-			<a href="#" class="payment">Proceed to Payment</a>
-			<a href="#" class="terminate-order">Cancel Order</a>
+			<div role="presentation" class="success-image-container">
+				<img
+					src="images/illustration-hero.svg"
+					alt="image of a person enjoying music"
+					class="success-image" />
+			</div>
 		</main>
 
-		<div class="attribution">
+		<footer class="attribution">
 			Challenge by
 			<a
 				href="https://www.frontendmentor.io?ref=challenge"
-				target="_blank"
+				target="frontend-mentor"
 				>Frontend Mentor</a
-			>. Coded by <a href="#">Your Name Here</a>.
-		</div>
+			>. Coded by
+			<a href="https://github.com/OnyedikachiOzoani" target="github"
+				>Onyedikachi Ozoani</a
+			>.
+		</footer>
 	</body>
 </html>
